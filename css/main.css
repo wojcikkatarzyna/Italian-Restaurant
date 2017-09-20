@@ -44,6 +44,7 @@ section::before,section::after {
 }
 
 /* Separators Styles */
+
 .ss-style-top::before {
     left:0;
     width:100%;
@@ -178,8 +179,8 @@ section::before,section::after {
     background:#fbfbfb;
 }
 .inner {
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-top:15px;
+    padding-bottom:15px;
 }
 .section-title {
     font-size:36px;
@@ -210,10 +211,10 @@ section::before,section::after {
     left:50%;
     margin-left:-40px;
 }
-.story .col-wrapper {
+.about .col-wrapper {
     padding:0 10px;
 }
-.story .icon-wrapper {
+.about .icon-wrapper {
     position:relative;
     height:80px;
     margin-top: 40px;
@@ -254,7 +255,7 @@ section::before,section::after {
     text-transform:uppercase;
     margin:0;
 }
-.story .icon-wrapper i {
+.about .icon-wrapper i {
     font-size:70px;
 }
 .facts i {
